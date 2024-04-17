@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15+ jqurey plugin</title>
+    <!-- plugin links -->
+    <link rel="stylesheet" href="../vendor/slick-slider/slick/slick.css">
+    <link rel="stylesheet" href="../vendor/slick-slider/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../vendor/news-box/css/site.css">
+    <link rel="stylesheet" href="../vendor/popup-video/css/videopopup.css">
+    <link rel="stylesheet" href="../vendor/image-uploader/dist/bootstrap-imageupload.min.css">
+    <!-- css links  -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="page2.css">
+</head>
+<body class="bg-warning">
+    <div class="container mt-3 text-center">
+      <a href="../index.html" class="btn btn-dark me-5">page 1</a>
+      <a href="page2.html" class="btn btn-dark me-5">page 2</a>
+      <a href="page3.html" class="btn btn-dark me-5">page 3</a>
+    </div>
+    <section class="container">
+      <!-- Example 1 -->
+      <h1>Example 1</h1>
+      <h3>Slick Slider</h3>
+      <div class="slick-slider-wraper">
+        <div class="slider px-3">
+          <img class="img-fluid" src="../images/man1.jpeg">
+        </div>
+        <div class="slider px-3">
+          <img class="img-fluid" src="../images/man2.jpeg">
+        </div>
+        <div class="slider px-3">
+          <img class="img-fluid" src="../images/man3.jpeg">
+        </div>
+        <div class="slider px-3">
+          <img class="img-fluid" src="../images/man4.webp">
+        </div>
+        <div class="slider px-3">
+          <img class="img-fluid" src="../images/man5.webp">
+        </div>
+      </div>
+      <br><hr>
+
+      <!-- Example 2 -->
+      <h1>Example 2</h1>
+      <h3>News Box</h3>
+      <div class="card">
+        <div class="card-header">
+          <span class="glyphicon glyphicon-list-alt"></span><b>News</b></div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-xs-12">
+              <ul class="demo1">
+                <li class="news-item">
+                  <table cellpadding="4">
+                    <tr>
+                      <td><img src="../images/man1.jpeg" width="60" class="img-circle" /></td>
+                      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                    </tr>
+                  </table>
+                </li>
+                <li class="news-item">
+                  <table cellpadding="4">
+                    <tr>
+                      <td><img src="../images/man2.jpeg" width="60" class="img-circle" /></td>
+                      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                    </tr>
+                  </table>
+                </li>
+                <li class="news-item">
+                  <table cellpadding="4">
+                    <tr>
+                      <td><img src="../images/man3.jpeg" width="60" class="img-circle" /></td>
+                      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                    </tr>
+                  </table>
+                </li>
+                <li class="news-item">
+                  <table cellpadding="4">
+                    <tr>
+                      <td><img src="../images/man4.webp" width="60" class="img-circle" /></td>
+                      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                    </tr>
+                  </table>
+                </li>
+                <li class="news-item">
+                  <table cellpadding="4">
+                    <tr>
+                      <td><img src="../images/man5.webp" width="60" class="img-circle" /></td>
+                      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                    </tr>
+                  </table>
+                </li>
+                <li class="news-item">
+                  <table cellpadding="4">
+                    <tr>
+                      <td><img src="../images/man6.webp" width="60" class="img-circle" /></td>
+                      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                    </tr>
+                  </table>
+                </li>
+                <li class="news-item">
+                  <table cellpadding="4">
+                    <tr>
+                      <td><img src="../images/man3.jpeg" width="60" class="img-circle" /></td>
+                      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                    </tr>
+                  </table>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><hr>
+
+
+      <!-- Example 3 -->
+      <h1>Example 3</h1>
+      <h3><a class="text-dark" href="javascript:void(0)" id="video1">click me </a></h3>
+      <br />
+      <div id="vidBox">
+        <div id="videCont">
+		      <video id="v1" controls>
+            <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+          </video>
+         </div>
+      </div>
+      <br><hr>
+
+      <!-- Example 4 -->
+      <h1>Example 4</h1>
+      <nav aria-label="Page navigation">
+        <ul class="pagination" id="pagination"></ul>
+      </nav>
+      <br><hr>
+
+
+      <!-- Example 5 -->
+      <h1>Example 5</h1>
+      <div class="container bg-light">
+        <p>A Bootstrap/jQuery plugin to preview image uploads.</p>
+        <!-- bootstrap-imageupload. -->
+        <div class="imageupload panel panel-default">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title pull-left">Upload Image</h3>
+                <div class="btn-group pull-right mb-5">
+                    <button type="button" class="btn btn-default active border border-1">File</button>
+                    <button type="button" class="btn btn-default border border-1">URL</button>
+                </div>
+            </div>
+            <div class="file-tab panel-body mb-5">
+                <label class="btn btn-dark btn-file">
+                    <span>Browse</span>
+                    <!-- The file is stored here. -->
+                    <input type="file" name="image-file">
+                </label>
+                <button type="button" class="btn btn-default">Remove</button>
+            </div>
+            <div class="url-tab panel-body">
+                <div class="input-group">
+                    <input type="text" class="form-control hasclear" placeholder="Image URL">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-default">Submit</button>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-default">Remove</button>
+                <!-- The URL is stored here. -->
+                <input type="hidden" name="image-url">
+            </div>
+        </div>
+
+        <!-- bootstrap-imageupload method buttons. -->
+        <button type="button" id="imageupload-disable" class="btn btn-danger">Disable</button>
+        <button type="button" id="imageupload-enable" class="btn btn-success">Enable</button>
+        <button type="button" id="imageupload-reset" class="btn btn-primary">Reset</button>
+
+    </div>
+
+
+    </section>
+
+
+    <!-- jquery links -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <!-- plugin links -->
+    <script src="../vendor/slick-slider/slick/slick.min.js"></script>
+    <script src="../vendor/news-box/scripts/jquery.bootstrap.newsbox.min.js"></script>
+    <script src="../vendor/popup-video/js/videopopup.js"></script>
+    <script src="../vendor/twbs-pagination/jquery.twbsPagination.min.js"></script>
+    <script src="../vendor/image-uploader/dist/bootstrap-imageupload.min.js"></script>
+  
+    <!-- script links -->
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="page2.js"></script>
+</body>
+</html>

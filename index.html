@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15+ jqurey plugin</title>
+    <!-- plugin links -->
+    <link rel="stylesheet" href="vendor/lucky-spin/style.css">
+    <!-- plugin links 2 -->
+    <link rel="stylesheet" href="vendor/multi-item/jqueryscripttop.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <!-- plugin 3 -->
+    <link rel="stylesheet" href="vendor/nivo-slider/default/default.css">
+    <link rel="stylesheet" href="vendor/nivo-slider/nivo-slider.css">
+    <!-- plugin 4 -->
+    <link rel="stylesheet" href="vendor/simplelightbox/simple-lightbox.min.css">
+    <!-- plugin 5 -->
+    <link rel="stylesheet" href="vendor/click-tap-image/image-zoom.css">
+
+    <!-- css links  -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container mt-3 text-center">
+      <a href="index.html" class="btn btn-dark me-5">page 1</a>
+      <a href="pages/page2.html" class="btn btn-dark me-5">page 2</a>
+      <a href="pages/page3.html" class="btn btn-dark me-5">page 3</a>
+    </div>
+
+
+    <section class="container">
+      <!-- Example 1 -->
+      <h1>Example 1</h1>
+            <div class="mainbox" id="mainbox">
+              <div class="box" id="box">
+                <div class="box1">
+                  <span class="font span1"><b>Samsung Tab A6</b></span>
+                  <span class="font span2"><b>JBL Speaker</b></span>
+                  <span class="font span3"><b>Magic Roaster</b></span>
+                  <span class="font span4"><b>Sepeda Aviator</b></span>
+                  <span class="font span5"
+                    ><b
+                      >Rice Cooker <br />
+                      Philips</b
+                    ></span
+                  >
+                </div>
+                <div class="box2">
+                  <span class="font span1"><b>Lunch Box Lock&Lock</b></span>
+                  <span class="font span2"
+                    ><b
+                      >Air Cooler <br />
+                      Sanken</b
+                    ></span
+                  >
+                  <span class="font span3"><b>Ipad Mini 4</b></span>
+                  <span class="font span4"><b>Exclusive Gift</b></span>
+                  <span class="font span5"
+                    ><b
+                      >Electrolux <br />
+                      Blender</b
+                    ></span
+                  >
+                </div>
+              </div>
+              <button class="spin" onclick="spin()">SPIN</button>
+            </div>
+            <audio
+              controls="controls"
+              id="applause"
+              src="vendor/lucky-spin/applause.mp3"
+              type="audio/mp3"
+            ></audio>
+            <audio
+              controls="controls"
+              id="wheel"
+              src="vendor/lucky-spin/wheel.mp3"
+              type="audio/mp3"
+            ></audio>
+            <br><hr>
+
+      <!-- Example 2 -->
+      <h1>Example 2</h1>
+          <div class="slider-container" id="featureslider-container">
+            <div class="row mx-auto my-auto justify-content-center">
+              <div id="featureCarousel" class="carousel slide" data-bs-ride="carousel">
+                <h2 class="font-weight-light float-start">Bootstrap 5 Multi Item Carousel</h2>
+                <div class="float-end pe-md-4">
+                  <a class="indicator" href="#featureCarousel" role="button" data-bs-slide="prev"><
+                  </a>
+                  <a class="w-aut indicator" href="#featureCarousel" role="button" data-bs-slide="next">
+                    >
+                  </a>
+                </div>
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="card-img">
+                          <img src="images/man1.jpeg" class="img-fluid">
+                        </div>
+                        <div class="card-img-overlays">Slide 1</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="card-img">
+                          <img src="images/man2.jpeg" class="img-fluid">
+                        </div>
+                        <div class="card-img-overlays">Slide 2</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="card-img">
+                          <img src="images/man3.jpeg" class="img-fluid">
+                        </div>
+                        <div class="card-img-overlays">Slide 3</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="card-img">
+                          <img src="images/man4.webp" class="img-fluid">
+                        </div>
+                        <div class="card-img-overlays">Slide 4</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="card-img">
+                          <img src="images/man5.webp" class="img-fluid">
+                        </div>
+                        <div class="card-img-overlays">Slide 5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="card-img">
+                          <img src="images/man6.webp" class="img-fluid">
+                        </div>
+                        <div class="card-img-overlays">Slide 6</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <br><hr>
+        
+      <!-- Example 3 -->
+      <h1>Example 3</h1>
+      <div id="wrapper">
+        <div class="slider-wrapper theme-default">
+        <div id="nivo-slider-box" class="nivoSlider"> 
+          <img src="images/wallpaper1.jpg" data-thumb="images/wallpaper1.jpg"/>
+          <img src="images/wallpaper2.jpg" data-thumb="images/wallpaper2.jpg"  title="This is an example of a caption" /> 
+          <img src="images/wallpaper3.jpg" data-thumb="images/wallpaper3.jpg" alt="" data-transition="slideInLeft" /> 
+          <img src="images/wallpaper4.jpg" data-thumb="images/wallpaper4.jpg" alt="" title="#htmlcaption" /> 
+        </div>
+        </div>
+      </div>
+      <br><hr>
+
+      <!-- example 4 -->
+      <h1>example 4</h1>
+      <h3>light box</h3>
+      <div class="gallery"> 
+        <a href="images/wallpaper1.jpg" class="big" rel="rel1">
+          <img class="w-100" src="images/wallpaper4.jpg" alt="" title="Image 1">
+        </a>
+      </div>
+      <br><hr>
+
+      <!-- example 5 -->
+      <h1>Example 5</h1>
+      <h3>click to zoom 2x</h3>
+      <div class="inner">
+
+        <div class="image-container w-50">
+          <img id="imageZoom" src="images/bike.jpeg" class="img-fluid">
+  
+        </div>
+  
+          </div>
+
+     
+
+
+
+
+    </section> 
+
+    <!-- jquery links -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- plugin links -->
+    <script src="vendor/lucky-spin/script.js"></script>
+    <script src="vendor/lucky-spin/sweetalert.min.js"></script>
+    <script src="vendor/nivo-slider/jquery.nivo.slider.js"></script>
+    <script src="vendor/simplelightbox/simple-lightbox.jquery.min.js"></script>
+ 
+    <script src="vendor/click-tap-image/image-zoom.js"></script>
+  
+    <!-- script links -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  
+</body>
+</html>s
